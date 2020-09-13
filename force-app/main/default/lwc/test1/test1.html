@@ -1,0 +1,16 @@
+<!-- wireGetRecordDynamicContact.html -->
+<template>
+  <lightning-card title="My Account Record" icon-name="standard:account">
+      <template if:true={myAccount.data}>
+          <div class="slds-m-around_medium">
+              <h1>{accountname}</h1>
+              <h2>{billingcity}</h2>
+              <p> 
+
+                  Reviewing details for account in city <b>{billingcity}</b>
+              </p>
+          </div>
+      </template>
+      
+  </lightning-card>
+</template>
